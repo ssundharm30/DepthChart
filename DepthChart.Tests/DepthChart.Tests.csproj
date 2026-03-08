@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.NET.Test.Sdk" Version="18.3.0" />
+      <PackageReference Include="NSubstitute" Version="5.3.0" />
+      <PackageReference Include="xunit" Version="2.9.3" />
+        <ProjectReference Include="..\DepthChart.Application\DepthChart.Application.csproj" />
+        <ProjectReference Include="..\DepthChart.Core\DepthChart.Core.csproj" />
+        <ProjectReference Include="..\DepthChart.Infrastructure\DepthChart.Infrastructure.csproj" />
+    </ItemGroup>
+
+</Project>
